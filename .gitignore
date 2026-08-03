@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Local database (regenerated from seed.py on first run) ---
+# The .db file is NOT committed; demo data ships in seed.py and auto-loads.
+fitness.db
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# IMPORTANT: demo data lives in seed.py and MUST always ship.
+# Never ignore seed.py or requirements.txt.
+!seed.py
+!requirements.txt
